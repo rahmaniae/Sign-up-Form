@@ -64,6 +64,19 @@ body > div {
     font-size: 54px;
 }
 
+.copyright {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.copyright a {
+    color: white;
+}
 form p {
     display: inline-block;
 }
@@ -76,7 +89,7 @@ form p {
 }
 
 section{
-    padding: 12px 30px 24px 30px;
+    padding: 18px 30px 8px 30px;
     
 }
 
@@ -133,6 +146,15 @@ input:focus{
     /*outline: 1px solid red;*/
 }
 
+.success {
+    border: 1px solid green;
+}
+
+.success:focus {
+    outline: none;
+    /*outline: 1px solid red;*/
+}
+
 label[for="password"] span::after {
     content: "*Passwords do not match";
     color: red;
@@ -159,6 +181,9 @@ label[for="password"] span::after {
     text-decoration: none;
 }
 
+.sect_three a:hover {
+    color: #3f4d33;
+}
 .sect_three p {
     color: var(--grey-font-color);
     font-weight: 600;
