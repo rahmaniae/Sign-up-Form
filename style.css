@@ -43,9 +43,9 @@ body > div {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 135px;
     background: #00000080 no-repeat;
-    padding: 10px 0 10px 0px;
+    padding: 18px 0 18px 0px;
     position: absolute;
     top: 20vh;
     width: 100%;
@@ -61,7 +61,7 @@ body > div {
     font-family: 'Norse';
     color: #fff;
     font-weight: 900;
-    font-size: 54px;
+    font-size: 80px;
 }
 
 .copyright {
@@ -173,7 +173,16 @@ label[for="password"] span::after {
     font-size: 18px;
     border: none;
     margin-top: 10px;
+    cursor: pointer;
 
+}
+
+.sect_three button:disabled {
+    opacity: 0.4;
+}
+
+.sect_three button:hover {
+    background-color: #3f4d33;
 }
 
 .sect_three a {

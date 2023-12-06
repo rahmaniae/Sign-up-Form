@@ -32,23 +32,23 @@
         </section>
         <section class="sect_two">
             <h3>Let's do this!</h3>
-            <form action="#">
+            <form action="#" id="signup_form">
                 <div>
-                    <p><label for="name">First Name <br><input name="first_name" type="text"></label></p>
-                    <p><label for="surname">Last Name <br><input name="last_name" type="text"></label></p>
+                    <p><label for="name">First Name <br><input name="first_name" type="text" required></label></p>
+                    <p><label for="surname">Last Name <br><input name="last_name" type="text" required></label></p>
                 </div>
                 <div>
-                    <p><label for="email">Email <br><input name="user_mail" type="Email"></label></p>
-                    <p><label for="phone">Phone Number <br><input name="user_phone" type="tel"></label></p>
+                    <p><label for="email">Email <br><input name="user_mail" type="Email" required></label></p>
+                    <p><label for="phone">Phone Number <sub>&#40;<em>optional</em>&#41;</sub><br><input name="user_phone" type="tel"></label></p>
                 </div>
                 <div>
-                    <p><label for="password">Password <br><input class="error" type="password" name="user_password" id="password"><br><span class=""></span></label></p>
-                    <p><label for="confirm_password">Confirm Password <br><input class="error" type="password" name="pwd_confirmation" id="confirm_password"></label></p>
+                    <p><label for="password">Password <br><input class="error" type="password" name="user_password" id="password" required><br><span class=""></span></label></p>
+                    <p><label for="confirm_password">Confirm Password <br><input class="error" type="password" name="pwd_confirmation" id="confirm_password" required></label></p>
                 </div>
             </form>
         </section>
         <section class="sect_three">
-            <button type="submit">Create Account</button>
+            <button type="submit" form="signup_form">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </section>
     </div>
